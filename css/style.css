@@ -17,3 +17,21 @@ scroll-behavior: auto !important;
 transition: none;
 }
 }
+
+.containerbody{
+    background-color: red;
+}
+
+
+  
+@media (max-width: 390px){
+
+.containerbody{
+    background-color: white;
+}
+
+
+
+
+
+}
