@@ -83,6 +83,28 @@ transition: none;
 
 }
 
+.navcontainer{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 40px;
+    height: 105.75px;
+    align-items: end;
+    justify-content: space-between;
+    padding-left: 8px;
+    
+    div{
++        display: flex;
+        flex-direction: column;
+    }
+    
+
+}
+
+
+
+
+
 
 
 }
