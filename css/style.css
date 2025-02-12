@@ -236,7 +236,79 @@ transition: none;
     .box3{
         position: absolute;
         top: 439.25px;
+        width: 390px;
+        height: 212px;
+        
+        
+        article:nth-child(1){
+            height: 44px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            
+            div:nth-child(1){
+
+                width: 96px;
+                height: 24px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+    
+                img{
+                    padding-left: 12px;
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+
+            div:nth-child(2){
+                width: 24px;
+                height: 24px;
+                padding-right: 10px;
+            }
+
+        }
+
+        article:nth-child(2){
+            padding-left: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            
+            h3{
+                padding-right: 14px;
+                font-size: 14px;
+            }
+            p{
+                font-size: 14px;
+            }
+            div{
+                width: 365;
+                height: 38px;
+            }
+
+            p:nth-child(3){
+                font-size: 14px;
+                color: rgba(110, 110, 110, 1);
+                
+            
+            }
+
+            p:nth-child(5){
+                font-size: 12px;
+                color: rgba(110, 110, 110, 1);
+                                
+            }
+        
+        }
+     
+
+
     }
+
+
+
 
 
 
