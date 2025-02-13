@@ -2,6 +2,10 @@
   --color-1:#fff;
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "SF\ UI\ Display\ Regular.ttf";
+    src: url(../storage/font/SF\ UI\ Display\ Regular.ttf);
+}
+@font-face {
+  font-family: "sf-ui-display-bold-58646a511e3d9.otf";
+  src: url(../storage/font/sf-ui-display-bold-58646a511e3d9.otf);
 }
